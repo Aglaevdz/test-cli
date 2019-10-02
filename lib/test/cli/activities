@@ -1,0 +1,17 @@
+class Activities
+  attr_accessor :name, :address, :hours, :rating, :website
+  @@all = [ ]
+
+  def initialize
+    name = @name
+    address = @address
+    hours = @hours
+    rating = @rating
+    website = @website
+  end
+  
+  def self.all
+    @@all
+  end
+
+end
